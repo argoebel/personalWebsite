@@ -1,4 +1,7 @@
 h1,
+h2,
+h3,
+h4,
 p {
   text-align: center;
   margin: 0em;
@@ -79,26 +82,63 @@ header li:hover {
 }
 
 .portfolio {
-  background-color: orange;
-  height: 100vh;
+  background-color: #ece2d0;
+  /* height: 100vh; */
+  padding-bottom: 30px;
 }
 
 .projectItem {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  outline: black solid 2px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  /* outline: black solid 2px; */
+  /* width: 80%; */
+  justify-content: center;
+}
+
+.projectDescription {
+  margin-left: 35px;
+}
+
+.projectDescription h2 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: left;
+  color: #2b3a67;
+}
+
+.projectDescription h3 {
+  margin-top: 0em;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #32936f;
+  font-weight: 600;
+}
+
+.projectDescription h4 {
+  margin-top: 0em;
+  text-align: left;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.projectDescription p {
+  text-align: left;
+  font-weight: 300;
 }
 
 .projectImage img {
-  width: 200px;
+  width: 250px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  /* box-shadow: 2px 2px 8px black; */
+}
+
+.projectDescription {
+  width: 25%;
 }
 
 .projectVideo video {
