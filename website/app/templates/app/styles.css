@@ -1,116 +1,155 @@
-body {
-  background-color: #121212;
-  color: white;
-}
-
 h1,
-h2,
-h3,
-h4,
-li {
-  font-family: "Myriad Pro";
-  font-weight: 100;
-}
-.flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex div {
-  border: 1px white solid;
-  /* padding: 10px; */
-}
-
-.projectItem {
-  text-align: justify;
-  word-wrap: normal;
-  width: 25%;
-}
-
-.projectItem h3,
-h4 {
+p {
   text-align: center;
+  margin: 0em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 350;
 }
 
-.projectItem li {
-  margin-left: 15px;
-  margin-right: 15px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
 }
 
-.projectItem img {
-  box-shadow: 2px 2px 8px black;
+header {
+  padding-left: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: coral;
 }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+header ul {
+  margin: 0em;
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
 }
 
-.containerProjects {
-  text-align: center;
+header li {
+  display: inline;
+  margin-right: 30px;
+  font-size: 14pt;
 }
 
-.projectCover {
-}
-
-.projects img {
-  width: 100px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: relative;
-  margin-top: 10px;
-}
-
-.containerCover div {
-  text-align: center;
-}
-
-.containerCover img {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  position: relative;
-}
-
-.title-block {
-  position: absolute;
-  text-align: center;
-  top: 30%;
-  width: 99%;
-  text-shadow: 2px 2px 8px black;
-}
-
-.nav {
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: blue;
-  z-index: 3;
-}
-
-.nav ul {
-  border: 1px red solid;
-  padding: 10px;
-  text-align: center;
-}
-
-.nav li:hover {
+header li:hover {
   color: aqua;
 }
 
-.nav li {
-  list-style-type: none;
-  display: inline-block;
-  margin-right: 20px;
+.home {
+  background-color: blue;
+  height: 100vh;
+  text-align: center;
 }
 
-hr {
-  border-width: 1px;
-  width: 30%;
-  color: white;
+.welcomeText {
+  background-color: yellow;
+  display: inline-block;
+  margin-top: 50vh;
+}
+
+.about {
+  background-color: green;
+  height: 100vh;
+}
+
+.aboutFlexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.aboutBio {
+  padding: 10px;
+  outline: black solid 2px;
   box-shadow: 2px 2px 8px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.picture {
+}
+
+.picture img {
+  width: 300px;
+  padding: 10px;
+  outline: black solid 2px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.portfolio {
+  background-color: orange;
+  height: 100vh;
+}
+
+.projectItem {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  outline: black solid 2px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectImage img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.projectVideo video {
+  width: 640px;
+  height: 360px;
+  margin: 20px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.interests {
+  background-color: teal;
+  height: 100vh;
+}
+
+.contact {
+  background-color: #dbd3d8;
+  height: 100vh;
+  text-align: center;
+}
+
+.contactInfo {
+  display: inline-block;
+  margin-top: 35vh;
+  text-align: left;
+  /* background-color: teal; */
+}
+
+.contactInfo input {
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 3px black;
+  width: 99%;
+}
+
+.contactInfo p {
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+}
+
+input[type="email"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+}
+
+textarea {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12pt;
+  box-shadow: 2px 2px 3px black;
+  width: 100%;
+  resize: none;
 }

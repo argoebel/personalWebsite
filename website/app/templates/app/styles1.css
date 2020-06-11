@@ -1,0 +1,178 @@
+body {
+  background-color: #878e88;
+  color: white;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  font-family: "Myriad Pro";
+  font-weight: 100;
+}
+
+h2 {
+  font-size: x-large;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex div {
+  /* border: 1px white solid; */
+  /* padding: 10px; */
+}
+
+.divider {
+  background-color: coral;
+  padding: 5px;
+  width: 100%;
+  margin-left: 0em;
+  box-shadow: 2px 2px 8px black;
+}
+
+.projectItem {
+  text-align: justify;
+  word-wrap: normal;
+  width: 25%;
+  background-color: black;
+  border-radius: 15px;
+  margin: 30px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.projectItem h3,
+h4 {
+  text-align: center;
+}
+
+.projectItem li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.projectItem img {
+  box-shadow: 2px 2px 8px black;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.containerProjects {
+  text-align: center;
+}
+
+.projectCover {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.projectCoverImage {
+  margin-left: 10%;
+}
+
+.descriptor {
+  width: 50%;
+}
+
+.descriptor h3 {
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+.descriptor h4 {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+.descriptor h5 {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 10%;
+}
+
+.projectCover img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  /* width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+.projects img {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  margin-top: 10px;
+}
+
+.containerCover div {
+  text-align: center;
+}
+
+.containerCover img {
+  orientation: from-image;
+  width: 400px;
+  margin-left: 30%;
+  margin-top: 5 5px;
+  display: block;
+  position: relative;
+  box-shadow: 2px 2px 8px black;
+}
+
+.title-block {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  width: 100%;
+  text-shadow: 2px 2px 8px black;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 3;
+}
+
+.nav ul {
+  border: 1px red solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav li:hover {
+  color: aqua;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+hr {
+  border-width: 1px;
+  width: 30%;
+  color: white;
+  box-shadow: 2px 2px 8px black;
+}

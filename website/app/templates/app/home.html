@@ -3,110 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Austin Goebel</title>
     <link rel="stylesheet" href="styles.css" />
+    <title>Austin Goebel</title>
   </head>
   <body>
-    <header class="nav">
-      <ul>
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Expertise</li>
-        <li>Education</li>
-        <li>Interests</li>
-      </ul>
-    </header>
-    <div class="flex">
-      <div class="containerCover">
-        <img src="IMG_0973 2.JPG" />
-        <div class="title-block">
-          <h1>Austin Goebel</h1>
-          <hr />
-          <h2>Developer | Data Science | UI Design</h2>
+    <div class="home">
+      <div class="welcomeText">
+        <h1>HOME</h1>
+      </div>
+    </div>
+    <div class="about">
+      <header>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <li>Interests</li>
+          <li>Contact</li>
+        </ul>
+      </header>
+      <h1>ABOUT</h1>
+      <div class="aboutFlexbox">
+        <div class="picture">
+          <img src="IMG_8294.JPEG" alt="" />
+        </div>
+        <div class="aboutBio">
+          <div class="skills">
+            <h1>Skills</h1>
+          </div>
+          <div class="tools">
+            <h1>Tools</h1>
+          </div>
         </div>
       </div>
-      <div class="containerProjects">
-        <h2>Projects</h2>
-        <div class="projects">
-          <div class="projectItem">
-            <img src="haptikLogo.png" alt="" />
-            <h3>Resuscitation Simulator</h3>
-            <h4>Backend</h4>
-            <ul>
-              <li>
-                Created web application with Django and React for educators to
-                evaluate students in medical simulations and scenarios
-              </li>
-              <li>
-                Tool will be used to educate medical students at the University
-                of Alberta and other medical schools across North America
-              </li>
-              <li>
-                All data recorded will be used for research purposes to improve
-                resuscitation methods and techniques in the future
-              </li>
-            </ul>
-          </div>
-          <div class="projectItem">
-            <div class="projectCover">
-              <img src="squawkLogo3.png" alt="" />
-              <div class="descriptor">
-                <h3>Squawk</h3>
-                <h4>Backend</h4>
-              </div>
-            </div>
-            <ul>
-              <li>
-                Created a decentralized social network web application with
-                Django similar to diaspora*
-              </li>
-              <li>
-                Designed API to create, edit, and update data with
-                authentication
-              </li>
-              <li>
-                Designed backend database structure and models
-              </li>
-            </ul>
-          </div>
-          <div class="projectItem">
-            <img src="hadaLogo.png" alt="" />
-            <h3>HADA Health Tracker</h3>
-            <h4>Full Stack</h4>
-            <ul>
-              <li>
-                Android app used to track illnesses and provide patient data to
-                medical practitioners
-              </li>
-              <li>
-                Captured images and notes to record progress through recovery
-                stages
-              </li>
-              <li>Used ElasticSearch to store, retrieve, and manage data</li>
-            </ul>
-          </div>
-        </div>
+    </div>
 
-        <div class="containerSkills">
-          <h2>Skills</h2>
-          <div class="languages">
-            <ul>
-              <li>Python</li>
-              <li>C</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
-          <div class="frameworks"></div>
-          <div class="tools"></div>
+    <div class="portfolio">
+      <h1>PORTFOLIO</h1>
+      <div class="projectItem">
+        <div class="projectImage">
+          <img src="haptikLogo.png" alt="" />
         </div>
-        <div class="containterInterests">
-          <h2>Interests</h2>
+        <div class="projectDescription">
+          <ul>
+            <li>
+              Created web application with Django and React for educators to
+              evaluate students in medical simulations and scenarios
+            </li>
+            <li>
+              Tool will be used to educate medical students at the University of
+              Alberta and other medical schools across North America
+            </li>
+            <li>
+              All data recorded will be used for research purposes to improve
+              resuscitation methods and techniques in the future
+            </li>
+          </ul>
+        </div>
+        <div class="projectVideo">
+          <video controls>
+            <source src="Haptik Short Screencast Demo.mp4" type="video/mp4" />
+            Your browser doesn't support this video tag
+          </video>
         </div>
       </div>
-      <div class="containerContact">
-        <h2>Contact</h2>
+
+      <div class="projectItem">
+        <div class="projectImage">
+          <img src="squawkLogo.png" alt="" />
+        </div>
+        <div class="projectDescription">
+          <ul>
+            <li>
+              Created a decentralized social network web application with Django
+              similar to diaspora*
+            </li>
+            <li>
+              Designed API to create, edit, and update data with authentication
+            </li>
+            <li>
+              Designed backend database structure and models
+            </li>
+          </ul>
+        </div>
+        <div class="projectVideo">
+          <h1>VIDEO HERE</h1>
+        </div>
+      </div>
+
+      <div class="projectItem">
+        <div class="projectImage">
+          <img src="hadaLogo.png" alt="" />
+        </div>
+        <div class="projectDescription">
+          <ul>
+            <li>
+              Android app used to track illnesses and provide patient data to
+              medical practitioners
+            </li>
+            <li>
+              Captured images and notes to record progress through recovery
+              stages
+            </li>
+            <li>Used ElasticSearch to store, retrieve, and manage data</li>
+          </ul>
+        </div>
+        <div class="projectVideo">
+          <h1>VIDEO HERE</h1>
+        </div>
+      </div>
+    </div>
+    <div class="interests">
+      <h1>INTERESTS</h1>
+    </div>
+    <div class="contact">
+      <div class="contactInfo">
+        <h1>CONTACT</h1>
+        <hr />
+        <p>Have a question or want to work together?</p>
+        <form action="">
+          <input
+            type="text"
+            name="name"
+            id=""
+            placeholder="Name"
+            size="30"
+          /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            size="30"
+          /><br />
+          <textarea name="message" rows="10" placeholder="Message"></textarea
+          ><br />
+          <button type="button">Submit</button>
+          <br />
+        </form>
       </div>
     </div>
   </body>
