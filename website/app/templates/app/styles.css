@@ -345,7 +345,7 @@ header div {
 .interestsVideo video {
   width: 500px;
   margin-left: 15px;
-  box-shadow: 2px 2px 8px black;
+  /* box-shadow: 2px 2px 8px black; */
 }
 
 .contact {
