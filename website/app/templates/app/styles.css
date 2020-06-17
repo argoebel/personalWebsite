@@ -16,7 +16,7 @@ p {
 body {
   margin: 0;
   padding: 0;
-  background-color: red;
+  background-color: #ece2d0;
 }
 
 header {
@@ -227,6 +227,10 @@ header div {
   padding-bottom: 30px;
 }
 
+.projects {
+  margin-top: 4vh;
+}
+
 .projectItem {
   margin-top: 2vh;
   display: flex;
@@ -311,7 +315,8 @@ header div {
 }
 
 .interestsFlexbox {
-  margin-top: 2vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -355,7 +360,8 @@ header div {
 
 .contactInfo {
   display: inline-block;
-  margin-top: 2vh;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
   text-align: left;
 }
 
@@ -385,4 +391,24 @@ textarea {
   box-shadow: 2px 2px 3px black;
   width: 100%;
   resize: none;
+}
+
+.footerIcon img {
+  width: 50px;
+}
+
+.footerIcon {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 4vh;
+  background-color: #f2542d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
