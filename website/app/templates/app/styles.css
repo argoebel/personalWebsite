@@ -412,3 +412,12 @@ footer {
   flex-direction: row;
   justify-content: center;
 }
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
