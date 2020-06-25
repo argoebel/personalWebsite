@@ -16,6 +16,7 @@ p {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   background-color: #ece2d0;
 }
 
@@ -420,4 +421,5 @@ a:visited {
 
 a:link {
   text-decoration: none;
+  color: black;
 }
