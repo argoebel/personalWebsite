@@ -146,6 +146,7 @@ header div {
   width: 500px;
   margin-left: 15px;
   margin-right: 0em;
+
   /* outline: #f2542d solid 2px; */
 
   /* margin-right: 20%; */
@@ -160,6 +161,7 @@ header div {
 .aboutBio p {
   text-align: left;
   font-size: 14pt;
+  font-weight: 300;
 }
 
 .aboutPicture {
@@ -271,6 +273,7 @@ header div {
 .projectDescription p {
   text-align: left;
   font-weight: 300;
+  font-size: 14pt;
 }
 
 .githubLink {
@@ -326,6 +329,7 @@ header div {
 
 .interestsText {
   width: 20%;
+  font-size: 14pt;
 }
 
 .interestsText h3 {
@@ -346,6 +350,7 @@ header div {
 
 .interestsText p {
   text-align: left;
+  font-weight: 300;
 }
 
 .interestsVideo video {
@@ -422,4 +427,157 @@ a:visited {
 a:link {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  header ul {
+    margin: 0em;
+    text-align: center;
+  }
+
+  .aboutFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 5vh; */
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 8px black;
+    padding: 15px;
+  }
+
+  .aboutBio {
+    padding: 10px;
+    /* outline: #f2542d solid 2px; */
+    /* box-shadow: 2px 2px 8px black; */
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 0em;
+    /* outline: #f2542d solid 2px; */
+
+    /* margin-right: 20%; */
+  }
+
+  .aboutSkillsToolsPadding {
+    margin-top: 4vh;
+    padding: 0;
+  }
+
+  .aboutSkillsTools {
+    text-align: center;
+  }
+
+  .skillsTools {
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin: 0;
+    padding-left: 0em;
+    padding-right: 0em;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .skill img:hover {
+    height: 70px;
+    padding: 0;
+    font-size: 12pt;
+  }
+
+  .projectItem {
+    flex-direction: column;
+  }
+
+  .projectImage {
+    text-align: center;
+  }
+
+  .projectImage img {
+    width: 70%;
+  }
+
+  .projectDescription {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skill {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .interestsFlexbox {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .interestsVideo {
+    text-align: center;
+  }
+
+  .interestsVideo video {
+    width: 95%;
+    margin: 0;
+  }
+
+  .interestsText {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+  header ul {
+    margin: 0em;
+    text-align: center;
+  }
+
+  .aboutFlexbox {
+    width: 90%;
+  }
+
+  .skill img:hover {
+    height: 70px;
+    padding: 0;
+    font-size: 12pt;
+  }
+
+  .projectItem {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    /* outline: black solid 2px; */
+    /* width: 80%; */
+    justify-content: center;
+  }
+
+  .projectDescription {
+    margin: 0;
+    width: 60%;
+  }
+  .interestsFlexbox {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .interestsVideo {
+    text-align: center;
+  }
+
+  .interestsVideo video {
+    width: 90%;
+    margin: 0;
+  }
+
+  .interestsText {
+    width: 90%;
+    margin-bottom: 2vh;
+  }
 }
